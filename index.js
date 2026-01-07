@@ -78,7 +78,9 @@ function saveStatus() {
 
 // ====== LINE 指令控制 ======
 app.post("/webhook", (req, res) => {
+  console.log(JSON.stringify(req.body, null, 2));
   const events = req.body.events;
+  
   if (!events || events.length === 0) return res.sendStatus(200);
 
   events.forEach(event => {
