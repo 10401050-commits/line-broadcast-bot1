@@ -14,7 +14,7 @@ const MESSAGE = "📢 這是連續廣播測試";
 const BROADCAST_DURATION_MINUTES = 20; // 總共廣播 20 分鐘
 const BROADCAST_INTERVAL_SECONDS = 10;  // 每 10 秒廣播一次
 const GROUP_IDS = [
-  "Cxxxxxxxxxxxxxxxx" // 改成你的群組 ID，可多群組
+  "C210447fed1f03bef4309334d2de7e490" // 改成你的群組 ID，可多群組
 ];
 
 // ====== 狀態持久化 ======
